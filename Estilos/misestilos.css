@@ -1,0 +1,40 @@
+﻿<style>
+p { font-size: 50px }
+
+span { font-size: 80px }
+
+
+#texto1 { font-size: 40px }
+
+.texto1 { font-size: 30px }
+
+p.texto1 { font-size: 30px }
+
+/*
+p[name] { font-size: 20px }
+*/
+
+
+p[name="mitexto"] { font-size: 20px }
+
+p[name^="mi"] { font-size: 20px }
+p[name$="mi"] { font-size: 30px }
+p[name*="mi"] { font-size: 40px }
+
+*{
+ margin: 0px;
+} 
+p:nth-child(1){
+ background: #999999;
+}
+p:nth-child(2){
+ background: #CCCCCC;
+}
+p:nth-child(3){
+ background: #999999;
+}
+p:nth-child(4){
+ background: #CCCCCC;
+} 
+
+</style>
