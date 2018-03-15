@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0074)http://librosweb.es/ejercicios/css/soluciones/ejercicio11/ejercicio11.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Ejercicio formatear tabla</title>
+<style type="text/css">
+table {
+  font: .9em Arial, Helvetica, sans-serif;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  text-align: center;
+}
+table th {
+  background: #F5F5F5 url() repeat-x;
+  padding: 0 .3em;
+  text-align: left;
+}
+table thead th {
+  text-align: center;
+}
+table th.viajar {
+  background: #E6F3FF url(png/viajar.png) no-repeat left center;
+  background-size: 20% 80%;
+  padding: 0 .3em 0 1.2em;
+}
+table th.plano {
+  background: #E6F3FF url(png/plano.png) no-repeat left center;
+  background-size: 20% 80%;
+  padding: 0 .3em 0 1.2em;
+}
+table th.transformar {
+  background: #E6F3FF url(png/transformar.png) no-repeat left center;
+  background-size: 20% 80%;
+  padding: 0 .3em 0 1.2em;
+}
+table th.cuentagotas {
+  background: #E6F3FF url(png/cuentagotas.png) no-repeat left center;
+  background-size: 20% 80%;
+  padding: 0 .3em 0 1.2em;
+}
+table th, table, td {
+  border: 1px solid #333;
+  line-height: 2em;
+}
+.par {
+  background-color:#FFFFCC;
+}
+table tr:hover {
+  background: red !important;
+}
+</style>
+</head>
+
+<body>
+  <img src="png/plano.png" alt="HTML5 Iconos" >
+<table summary="Tipos de dato">
+  <thead>
+    <tr class="cabecera">
+      <th scope="col">Nombre</th>
+      <th scope="col">encab1</th>
+      <th scope="col">encab2</th>
+      <th scope="col">encab3</th>
+      <th scope="col">encab4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="par">
+      <th scope="row" class="viajar">Tipo 1</th>
+      <td>dato 0</td>
+      <td>dato 1</td>
+      <td>dato 2</td>
+      <td>dato 3</td>
+    </tr>
+    <tr>
+      <th scope="row" class="plano">Tipo 2</th>
+      <td>dato 4</td>
+      <td>dato 5</td>
+      <td>dato 6</td>
+      <td>dato 7</td>
+    </tr>
+    <tr class="par">
+      <th scope="row" class="cuentagotas">Tipo 3</th>
+      <td>dato 8</td>
+      <td>dato 9</td>
+      <td>dato 10</td>
+      <td>dato 11</td>
+    </tr>
+    <tr>
+      <th scope="row" class="transformar">Tipo 4</th>
+      <td>dato 12</td>
+      <td>dato 13</td>
+      <td>dato 14</td>
+      <td>dato 15</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+</body></html>
