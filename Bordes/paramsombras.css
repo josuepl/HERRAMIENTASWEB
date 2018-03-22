@@ -1,0 +1,59 @@
+
+section{
+	color:black;
+	display:block; 
+	font-family:Verdana;
+	margin:0 auto;
+	width:99%;
+	
+}
+
+h1{
+	color: red;
+}
+
+   #Publicaciones{
+   background:#91C22A;
+   border:2px solid #607D8B;
+   border-radius:30px;
+   margin-top:250px;
+   width:50%;
+   }
+   
+#articulo #entrada{
+   background:#497915;
+   height:100px; 
+   }
+   
+   article.comentario{
+   background:#607D8B; 
+   border-radius:20px; 
+   box-shadow:0 20px 20px -20px Yellow;
+   height:50px;
+   margin:20px auto;
+   padding:20px;
+   width:80%}
+
+
+
+#caja{
+   background:white;
+   border:1px solid red;
+   border-radius:50%;
+   box-shadow:500px 200px 20px 50px red,
+            220px 200px 20px 10px orange,
+            0px 200px 20px 0 yellow,
+            -300px 200px 20px -50px green,
+            -500px 200px 20px -90px blue;
+   height:200px;
+   margin: 100px auto;
+   width:200px;
+   transition: 4s box-shadow;
+   }
+#caja:hover{
+   box-shadow:0 0 20px 50px red,
+            0 0 20px 10px orange,
+            0 0 20px 0 yellow,
+            0 0 20px -50px green,
+            0 0 20px -90px blue;
+   }
