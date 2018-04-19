@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Primer JScript</title>
+    <style type=”text/css”>
+    .highlight {font-weight: bold}
+    </style>
+    <script>
+       
+        function done() {
+        alert(“The page has finished loading.”);
+        }
+  
+    </script>
+</head>
+<body onload ="done()">
+<h1>Codificación en JScript</h1>
+<p id="prueb"></p>
+<script>
+document.getElementById("prueb").innerHTML ="Hola Mundo";
+</script>
+
+<button type="button" onclick="funcam()">Cambia parrafo</button>
+<script>
+        function funcam() { 
+            document.getElementById("prueb").innerHTML = "HOLA Herramientas WEB ITI";
+        }
+        </script>
+
+<button tupe="button" onclick="estilcam()"> Cambia estilo </button>
+<script>
+    function estilcam() { 
+        document.getElementById("prueb").style.fontSize = "25px"; 
+        document.getElementById("prueb").style.color = "red";
+        document.getElementById("prueb").style.backgroundColor = "yellow";   
+        }
+</script>
+</body>
+</html>
